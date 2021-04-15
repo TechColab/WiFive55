@@ -5,8 +5,8 @@ $Descr User 8268 5827
 encoding utf-8
 Sheet 1 1
 Title "WiFive55"
-Date "2021-04-02"
-Rev "0.10"
+Date "2021-04-13"
+Rev "0.11"
 Comp "(c)2021 Phill Rogers @ TechColab.co.je"
 Comment1 ""
 Comment2 ""
@@ -410,8 +410,6 @@ Text Label 900  3250 2    50   ~ 0
 !OUT
 Text Label 900  3050 2    50   ~ 0
 VIN
-Text Label 900  3150 2    50   ~ 0
-NC
 Text Label 900  2950 2    50   ~ 0
 COM
 Text Label 900  3350 2    50   ~ 0
@@ -1161,4 +1159,23 @@ Wire Wire Line
 	2250 800  2550 800 
 Wire Wire Line
 	1400 2400 2550 2400
+$Comp
+L Relay:G5Q-1A K1001
+U 1 1 60754CB2
+P 6550 1650
+F 0 "K1001" H 6880 1696 50  0000 L CNN
+F 1 "G5Q-1A" H 6880 1605 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPST_TE_PCN-1xxD3MHZ" H 6900 1600 50  0001 L CNN
+F 3 "https://www.omron.com/ecb/products/pdf/en-g5q.pdf" H 6550 1650 50  0001 C CNN
+	1    6550 1650
+	1    0    0    -1  
+$EndComp
+Text Label 5950 1850 2    50   ~ 0
+!OUT
+Text Label 5950 1650 2    50   ~ 0
+VIN
+Text Label 5950 1550 2    50   ~ 0
+COM
+Text Label 5950 1950 2    50   ~ 0
+NO
 $EndSCHEMATC
