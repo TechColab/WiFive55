@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6-0-10_14)"
     },
-    "CreationDate":  "2021-04-15T17:51:28+01:00"
+    "CreationDate":  "2021-04-16T00:02:23+01:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "WiFive55",
       "GUID": "57694669-7665-4353-952e-6b696361645f",
-      "Revision": "0.11"
+      "Revision": "0.12"
     },
     "Size":
     {
