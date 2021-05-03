@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x08 J3
+L Connector_Generic:Conn_01x08 J8
 U 1 1 5EE6EDC3
 P 1200 2300
-F 0 "J3" H 1150 2700 50  0000 L CNN
+F 0 "J8" H 1150 2700 50  0000 L CNN
 F 1 "Breadboard" V 1300 2100 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 1200 2300 50  0001 C CNN
 F 3 "~" H 1200 2300 50  0001 C CNN
@@ -101,10 +101,10 @@ F 3 "" H 1400 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J2
+L Connector:Screw_Terminal_01x03 J3
 U 1 1 5FF4F85F
 P 4600 2550
-F 0 "J2" V 4600 2300 50  0000 L CNN
+F 0 "J3" V 4600 2300 50  0000 L CNN
 F 1 "Switched Output" V 4700 2150 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 4600 2550 50  0001 C CNN
 F 3 "~" H 4600 2550 50  0001 C CNN
@@ -187,10 +187,10 @@ Wire Wire Line
 Wire Wire Line
 	1400 1900 3200 1900
 $Comp
-L Connector_Generic:Conn_01x08 J4
+L Connector_Generic:Conn_01x08 J1
 U 1 1 60121331
 P 900 2300
-F 0 "J4" H 850 2700 50  0000 L CNN
+F 0 "J1" H 850 2700 50  0000 L CNN
 F 1 "Grounds" V 1000 2150 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 900 2300 50  0001 C CNN
 F 3 "~" H 900 2300 50  0001 C CNN
