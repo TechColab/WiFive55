@@ -132,8 +132,8 @@ Wire Wire Line
 	2350 2600 2350 2950
 Wire Wire Line
 	1400 2600 2150 2600
-Text Notes 3600 4450 0    50   ~ 0
-GPIO0 !PROG/!BTN\nGPIO1 TX/!LED\nGPIO2 !OUTPUT\nGPIO3 RX
+Text Notes 3600 4550 0    50   ~ 0
+GPIO0 !PROG/!BTN\nGPIO1 TX/!LED\nGPIO2 !OUTPUT\nGPIO3 RX\n*R9 to suit output device. E.g. zero ohms
 Wire Wire Line
 	2450 2500 2450 2950
 Wire Wire Line
@@ -370,12 +370,12 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 605643E9
-P 3500 4000
-F 0 "H2" V 3500 3800 50  0000 L CNN
-F 1 "MountingHole" V 3650 3700 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 3500 4000 50  0001 C CNN
-F 3 "~" H 3500 4000 50  0001 C CNN
-	1    3500 4000
+P 3500 3850
+F 0 "H2" V 3500 3650 50  0000 L CNN
+F 1 "MountingHole" V 3650 3550 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3500 3850 50  0001 C CNN
+F 3 "~" H 3500 3850 50  0001 C CNN
+	1    3500 3850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1120,7 +1120,7 @@ L Device:R R4
 U 1 1 6043335B
 P 4700 1300
 F 0 "R4" V 4700 1200 50  0000 L CNN
-F 1 "200" H 4650 1500 50  0000 L CNN
+F 1 "470" H 4650 1500 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 4630 1300 50  0001 C CNN
 F 3 "~" H 4700 1300 50  0001 C CNN
 	1    4700 1300
